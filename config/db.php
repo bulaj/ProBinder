@@ -15,3 +15,7 @@ define("DB_HOST", "127.0.0.1");
 define("DB_NAME", "mtg");
 define("DB_USER", "buli");
 define("DB_PASS", "buli");
+
+$mysqli = new mysqli("127.0.0.1", "buli", "buli", "mtg");
+
+date_default_timezone_set('Europe/Warsaw');
